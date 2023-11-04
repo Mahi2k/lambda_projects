@@ -1,4 +1,4 @@
-# Lambda Projects Q1 - Q2 - 
+# Lambda Projects Q1 - Q2 - Q6
 
 ## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 
@@ -51,6 +51,15 @@
     ![Alt text](image-4.png)
 
 #
-## Assignment 6: Auto-Tagging EC2 Instances on Launch Using AWS Lambda and Boto3
+## Assignment 4: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3
 
-Step 1: 
+1. Goto SNS (Simple Notification Service Dashboard) and create your topic
+![Alt text](image-5.png)
+
+2. Subscribe to the recently created SNS
+
+3. Goto Lambda Dashboard and create a lambda expression, Add a code to lambda given in (lambda_projects\monitor-unencrypted-ec2\lambda-q4.py)
+
+4. After creating the lambda manually trigger it, it will check if all the buckets is having an server side encrypted configuration, if it is not found it will delete the s3 bucket.
+
+5. Check you mail to recieve the list of deleted buckets. Do not forget to check in spam folders.
