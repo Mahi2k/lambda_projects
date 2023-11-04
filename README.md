@@ -1,4 +1,4 @@
-# Lambda Projects Q1 - Q2 - Q6
+# Lambda Projects Q1 - Q2 - Q4
 
 ## Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 
